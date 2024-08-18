@@ -1,0 +1,121 @@
+@font-face {
+  font-family: boxicons;
+  font-weight: 400;
+  font-style: normal;
+  src: url("../fonts/box-icons/boxicons.eot");
+  src: url("../fonts/box-icons/boxicons.eot") format("embedded-opentype"), url("../fonts/box-icons/boxicons.woff") format("woff2"), url("../fonts/box-icons/boxicons.woff") format("woff"),
+    url("../fonts/box-icons/boxicons.tff") format("truetype"), url("../fonts/box-icons/boxicons.svg?#boxicons") format("svg");
+}
+.bx {
+  font-family: boxicons !important;
+  font-weight: 400;
+  font-style: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-rendering: auto;
+  display: inline-block;
+  text-transform: none;
+  speak: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.bx-ul {
+  margin-left: 2em;
+  padding-left: 0;
+  list-style: none;
+}
+.bx-ul > li {
+  position: relative;
+}
+.bx-ul .bx {
+  font-size: inherit;
+  line-height: inherit;
+  position: absolute;
+  left: -2em;
+  width: 2em;
+  text-align: center;
+}
+.bx-link-external:before {
+  content: "\eb3e";
+}
+.bxs-copy:before {
+  content: "\ed67";
+}
+.bxs-star:before {
+  content: "\eeb8";
+}
+.bx-right-arrow-alt:before {
+  content: "\ebe6";
+}
+.bx-check:before {
+  content: "\ea41";
+}
+.bx-x:before {
+  content: "\ec8d";
+}
+.bx-left-arrow-alt:before {
+  content: "\eb33";
+}
+.bx-history:before {
+  content: "\eb10";
+}
+.bx-network-chart:before {
+  content: "\eb9e";
+}
+.bx-arrow-back:before {
+  content: "\e9b4";
+}
+.bxs-chevron-up:before {
+  content: "\ed42";
+}
+.bx-menu:before {
+  content: "\eb5f";
+}
+.bxl-github:before {
+  content: "\e93a";
+}
+.bxl-linkedin:before {
+  content: "\e94d";
+}
+.bxl-twitter:before {
+  content: "\e982";
+}
+.bxl-codepen:before {
+  content: "\e91b";
+}
+.bx-info-circle:before {
+  content: "\eb21";
+}
+.bx-error-circle:before {
+  content: "\eac7";
+}
+.bx-error:before {
+  content: "\eac5";
+}
+.bx-check-circle:before {
+  content: "\ea46";
+}
+.bxs-calendar:before {
+  content: "\ed00";
+}
+.bxs-time-five:before {
+  content: "\eec8";
+}
+.bxs-share-alt:before {
+  content: "\eea1";
+}
+.bx-question-mark:before {
+  content: "\ebd0";
+}
+.bx-mail-send:before {
+  content: "\eb53";
+}
+.bx-download:before {
+  content: "\eab9";
+}
+.bx-show:before {
+  content: "\ec0c";
+}
+.bxs-sun:before {
+  content: "\eebe";
+}
