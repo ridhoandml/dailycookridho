@@ -31,7 +31,7 @@ const links = reactive([
         <a
           v-for="link in links"
           :href="link.url"
-          class="flex flex-row justify-between items-center px-4 py-3 text-sm text-slate-900 bg-yellow-100 rounded">
+          class="flex flex-row justify-between items-center px-4 py-3 text-sm font-medium text-slate-900 bg-yellow-100 rounded">
           <span>{{ link.title }}</span>
           <i v-if="link.isExternal" class="bx bx-link-external"></i>
         </a>

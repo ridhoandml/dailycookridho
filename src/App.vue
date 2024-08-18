@@ -1,15 +1,15 @@
 <script setup lang="ts">
-import { reactive } from 'vue';
+import { onMounted, reactive, ref } from 'vue';
 import { RouterLink, RouterView } from 'vue-router'
 
 const links = reactive([
   {
     "url": "/",
-    "title": "Home",
+    "title": "Beranda",
   },
   {
     "url": "/recommendations",
-    "title": "Recommendations",
+    "title": "Rekomendasi",
   },
 ])
 </script>
@@ -27,13 +27,15 @@ const links = reactive([
     </div>
   </nav>
   <RouterView />
+  <img class="absolute top-0 left-0 h-screen -z-10 scale-150 opacity-40" src="./assets/img/background.svg" alt="">
 </template>
 
 <style lang="postcss">
 body {
-  @apply bg-gradient-to-br	from-orange-200 to-yellow-500;
+  @apply bg-gradient-to-br from-orange-200 to-yellow-500 via-amber-400
+  bg-[length:200%_200%] animate-gradient-x;
 }
 #app {
-  min-height: 100vh;
+  @apply min-h-screen relative;
 }
 </style>

@@ -9,6 +9,15 @@ export default {
       fontFamily: {
         sans: ["Plus Jakarta Sans", "sans-serif"],
       },
+      animation: {
+        'gradient-x': 'gradient-x 5s ease infinite',
+        'gradient-y': 'gradient-y 5s ease infinite',
+        'gradient-xy': 'gradient-xy 5s ease infinite',
+      },
+      backgroundSize: {
+        '200%': '200%',
+        '400%': '400%',
+      },
     },
   },
   plugins: [],
